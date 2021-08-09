@@ -11,7 +11,7 @@ import java.io.File;
 public class JDBCUtilities {
 
     //Ubicación de la base de datos que soporta este SW
-    private static final String UBICACION_BD = "/Users/luismiguelescobarfalcon/Dropbox/MisionTIC2022/Ciclo2/repositorioClasesCiclo2/P61/Clase16/mvc_proyectos_construccion/ProyectosConstruccion.db";//Ruta absoluta
+    private static final String UBICACION_BD = "C:\\Users\\alexa\\OneDrive\\Desktop\\mistionTIC\\databases\\ProyectosConstruccion.db";//Ruta absoluta
     
     //Método para proveer conexión
     public static Connection getConnection() throws SQLException {
